@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitorización de placa solar</title>
+    <script type="text/javascript">
+        function btn_cambiarEstado(status){
+            if (status == 'Encendido'){
+                return 'Apagar';
+            }else
+                return 'Encender'
+        }
+        function checkAngulo(f){
+            if (f.elements["angulo"].value < 0 || f.elements["angulo"].value > 90){
+                window.alert("El ángulo debe estar comprendido entre 0 y 90 grados");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form align="right" name="log_out" method="post" action="/logout">
+        {% csrf_token %}
+	{{user}} &nbsp
+        <input name="submit2"
+               style="background-color: #CA3F21; border: none; color: white;
+               padding: 7px 17px; font-size: 12px;"
+               type="submit" id="submit2" value="Cerrar Sesión"></p>
+    </form>
+    <h1 style="text-align: center">Sistema de monitorización de placa solar</h1>
+    <center><img src="/static/placa.gif"/></center>
+
+    <form id='estadoForm' method="post" action="/cambiarEstado">
+	{% csrf_token %}
+        <p style="text-align:center; font-size: 25px">Estado: {{status}} &nbsp;
+            <input style="font-size: 20px" id ='submit_estado' name="submit_estado" type="submit" value=""></p>
+        <script>
+            document.getElementById('submit_estado').value = btn_cambiarEstado("{{status}}");
+        </script>
+    </form>
+
+    <form name="form" method="post" action="/moverPlaca" onsubmit="return checkAngulo(this)">
+        {% csrf_token %}
+	{{ form }}
+        <p style="text-align:center; font-size: 25px"> Ángulo de la placa:
+            <input type="text" style="width: 30px; font-size: 25px" id="angulo" name="angulo" value={{inclinacion}}> º &nbsp;
+            <input style="font-size: 20px" type="submit" value="Actualizar">
+        </p>
+    </form>
+
+    <p style="text-align:center; font-size: 30px"> Energía generándose actualmente: {{energia}} W</p>
+</body>
+</html>

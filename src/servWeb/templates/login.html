@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <script type="text/javascript">
+        function checkLogin(f){
+            if (f.elements["user"].value === "" || f.elements["pass"].value === ""){
+                window.alert("Es necesario introducir usuario y contraseña");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center">Monitorización de placa solar</h1>
+    <div style="display: flex; justify-content: center">
+        <form name="form" method="post" action="/authUser"  onsubmit="return checkLogin(this)">
+            {% csrf_token %}
+	    {{ form }}
+            <p style="font-size: 25px">Usuario: <input type="text" style="width: 100px; font-size: 25px" id="user" name="user" ></p>
+            <p style="font-size: 25px">Constraseña: <input type="password" style="width: 100px; font-size: 25px" id="pass" name="pass" ></p>
+            <div style="text-align: center;"><input style="font-size: 20px" type="submit" value="Iniciar Sesión"></div>
+        </form>
+    </div>
+</body>
+</html>
