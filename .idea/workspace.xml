@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d0724a7-8bd0-4136-9149-0e711f440501" name="Changes" comment="protocolo propietario funcionando" />
+    <list default="true" id="2d0724a7-8bd0-4136-9149-0e711f440501" name="Changes" comment="protocolo propietario funcionando">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servWeb/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/servWeb/funciones.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/javi/Documentos/Cidaut/TFG-JavierDominguez/tfg-servicioweb",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/javi/Documentos/Cidaut/TFG-JavierDominguez/tfg-servicioweb&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tfg-servicioweb" />
@@ -84,7 +87,8 @@
       <workItem from="1652952623178" duration="1183000" />
       <workItem from="1652953909455" duration="84000" />
       <workItem from="1652955695998" duration="20000" />
-      <workItem from="1652955717176" duration="313000" />
+      <workItem from="1652955717176" duration="343000" />
+      <workItem from="1652960019010" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1652648653290</created>
@@ -177,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652953980148</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="protocolo propietario funcionando">
+      <created>1652956037161</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652956037161</updated>
+    </task>
+    <task id="LOCAL-00015" summary="protocolo propietario funcionando">
+      <created>1652956045869</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652956045869</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
