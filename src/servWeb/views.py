@@ -51,14 +51,19 @@ def logout(request):
 def cambiarEstado(request):
     cookie = request.COOKIES.get('id')
     if validarCookie(cookie):
+        if request.POST['submit_estado'] == "Encender":
+            send2gw(3)
+        else:
+            send2gw(4)
+
         return redirect("/monitor")
     else:
         return redirect("/login")
 
 def moverPlaca(request):
     cookie = request.COOKIES.get('id')
-    send2gw(5, content=request.POST['angulo'])
     if validarCookie(cookie):
+        send2gw(5, content=request.POST['angulo'])
         return redirect("/monitor")
     else:
         return redirect("/login")
