@@ -57,6 +57,7 @@ def cambiarEstado(request):
 
 def moverPlaca(request):
     cookie = request.COOKIES.get('id')
+    send2gw(5, content=request.POST['angulo'])
     if validarCookie(cookie):
         return redirect("/monitor")
     else:
