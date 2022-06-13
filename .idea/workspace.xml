@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d0724a7-8bd0-4136-9149-0e711f440501" name="Changes" comment="prueba enviar angulo gtw">
+    <list default="true" id="2d0724a7-8bd0-4136-9149-0e711f440501" name="Changes" comment="prueba enviar señal encender/apagar gtw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servWeb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/servWeb/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,29 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.clearCookies">
+    <configuration name="clearCookies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tfg-servicioweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clearCookies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tfg-servicioweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.clearCookies" />
         <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
@@ -90,7 +112,12 @@
       <workItem from="1652955717176" duration="343000" />
       <workItem from="1652960019010" duration="68000" />
       <workItem from="1653033335386" duration="12000" />
-      <workItem from="1653038843162" duration="1360000" />
+      <workItem from="1653038843162" duration="1784000" />
+      <workItem from="1653040715204" duration="8000" />
+      <workItem from="1653987578227" duration="2941000" />
+      <workItem from="1654673268643" duration="599000" />
+      <workItem from="1654765991563" duration="11000" />
+      <workItem from="1655117725234" duration="1268000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1652648653290</created>
@@ -211,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653039107991</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="prueba enviar señal encender/apagar gtw">
+      <created>1653040220093</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1653040220093</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +274,8 @@
     <MESSAGE value="protocolo propietario funcionando" />
     <MESSAGE value="cambio ip gateway" />
     <MESSAGE value="prueba enviar angulo gtw" />
-    <option name="LAST_COMMIT_MESSAGE" value="prueba enviar angulo gtw" />
+    <MESSAGE value="prueba enviar señal encender/apagar gtw" />
+    <option name="LAST_COMMIT_MESSAGE" value="prueba enviar señal encender/apagar gtw" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tfg_servicioweb$manage.coverage" NAME="manage Coverage Results" MODIFIED="1653038986172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
