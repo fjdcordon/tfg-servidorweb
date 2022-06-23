@@ -13,7 +13,7 @@ cp apache-selfsigned.crt /etc/ssl/certs/
 cp apache-selfsigned.key /etc/ssl/private/
 a2enmod ssl
 python3 -m venv /var/www/venv
-/var/www/venv/bin/pip3/install django mysql-connector scapy
+/var/www/venv/bin/pip3 install django mysql-connector scapy
 cp 000-default.conf /etc/apache2/sites-available
 cp apache2.conf /etc/apache2/
 mkdir /var/www/logs
