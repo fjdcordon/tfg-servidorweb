@@ -19,5 +19,6 @@ cp apache2.conf /etc/apache2/
 mkdir /var/www/logs
 chmod 755 /var/www/logs
 cp 50-cloud-init.yaml /etc/netplan
-systemctl enable apache2 mysql
+echo secure-file-priv = "" >> /etc/mysql/mysql.conf.d/mysqld.cnf
+systemctl enable apache2 mysql clearCookies
 reboot now
