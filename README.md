@@ -20,7 +20,7 @@ Instalación
 
 5. Ahora iniciamos la máquina y nos pedirá seleccionar un disco de inicio. En este momento es cuando tenemos que seleccionar la imagen de Ubuntu Server 18.04.5 que nos hemos descargado y presionar en *Start*.
 
-6. En la configuración inicial de Ubuntu, estableceremos el idioma y distribución de teclado que deseemos y dejaremos todo el resto de opciones tal y como vienen por defecto. Cuando lleguemos a la configuración de nuestro perfil, es necesario que el nombre del usuario sea *server*. Para la contraseña y el nombre del equipo no hay ningún tipo de restricción. Es importante rechazar cualquier tipo de actualización si se nos pidiese. Una vez finalizada la instalación se activará un botón para poder reiniciar la máquina.
+6. En la configuración inicial de Ubuntu, estableceremos el idioma y distribución de teclado que deseemos y dejaremos el resto de opciones tal y como vienen por defecto. Cuando lleguemos a la configuración de nuestro perfil, es necesario que el nombre del usuario sea *server*. Para la contraseña y el nombre del equipo no hay ningún tipo de restricción. Es importante rechazar cualquier tipo de actualización si se nos pidiese. Una vez finalizada la instalación se activará un botón para poder reiniciar la máquina.
 
 7. Una vez reiniciada la máquina, iniciaremos sesión y ejecutaremos los siguientes comandos:
 
