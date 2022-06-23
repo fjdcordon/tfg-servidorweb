@@ -1,0 +1,11 @@
+[Unit]
+Description = Automatic session cookie remover
+After = mysql.service
+
+[Service]
+WorkingDirectory = /home/server
+User = server
+ExecStart = /usr/bin/python3 /home/server/clearCookies.py
+
+[Install]
+WantedBy=multi-user.target
