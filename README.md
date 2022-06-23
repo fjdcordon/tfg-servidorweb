@@ -26,7 +26,7 @@ Instalación
 
 ```bash
 sudo apt update
-sudo apt install git mysql-server apache2 python3 python3-pip python3-venv libapache2-mod-wsgi-py3
+sudo apt install git mysql-server apache2 python3 python3-pip python3-venv libapache2-mod-wsgi-py3 php libapache2-mod-php
 git clone https://github.com/fjdcordon/tfg-servidorweb
 cd tfg-servidorweb
 chmod +x setup.sh
