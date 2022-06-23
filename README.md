@@ -15,3 +15,7 @@ Instalación
 3. Una vez instalado, lo abrimos y pulsamos sobre el botón *New* o *Nueva* (dependiendo del idioma en que este configurado el equipo anfitrión). Pondremos el nombre que deseemos a la máquina, indicaremos que se trata de un Linux y que la distribución es Ubuntu (64-bit). Dejaremos el resto de la configuración por defecto.
 
 ![](https://github.com/fjdcordon/tfg-servidorweb/blob/master/images/instalacion1.png)
+
+![](https://github.com/fjdcordon/tfg-servidorweb/blob/master/images/instalacion2.png)
+
+4. Una vez hecha la primera configuración de la máquina, vamos cambiar los ajustes de red. Para ello, hacemos click sobre la máquina y presionamos *Settings* o *Configuración*. Nos vamos a la opción de *Network* o *Red* y configuraremos el primer adaptador como *Bridged Adapter* o *Adaptador Puente* y el segundo adaptador como *Internal Network* o *Red Interna*. El nombre de la red interna será *intnet*.
