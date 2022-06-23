@@ -9,3 +9,9 @@ Autor: Francisco Javier Domínguez Cordón
 
 Instalación
 -------------
+
+1. Descargar la imagen ISO de Ubuntu Server 18.04.5: [Descargar Imagen](https://old-releases.ubuntu.com/releases/18.04.5/ubuntu-18.04-live-server-amd64.iso)
+2. Dado que la infraestructura está virtualizada, hay que descargar un software de virtualización. En este caso, se ha optado por utilizar [Oracle VM VirtualBox](https://www.virtualbox.org/), un software de código abierto, gratuito y multiplataforma (Windows, GNU/Linux, Mac OS). Para instalarlo simplemente hay que seguir los pasos que se detallan en su página web.
+3. Una vez instalado, lo abrimos y pulsamos sobre el botón *New* o *Nueva* (dependiendo del idioma en que este configurado el equipo anfitrión). Pondremos el nombre que deseemos a la máquina, indicaremos que se trata de un Linux y que la distribución es Ubuntu (64-bit). Dejaremos el resto de la configuración por defecto.
+
+![](https://github.com/fjdcordon/tfg-servidorweb/blob/master/images/instalacion1.png)
