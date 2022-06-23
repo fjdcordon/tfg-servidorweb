@@ -1,7 +1,7 @@
 #!/bin/bash
 mysql < database.sql
 python3 -m pip install mysql-connector apscheduler virtualenv
-clearCookies.py /home/server
+cp clearCookies.py /home/server
 cp clearCookies.service /etc/systemd/system
 cp 10periodic /etc/apt/apt.conf.d
 cp 20auto-upgrades /etc/apt/apt.conf.d
