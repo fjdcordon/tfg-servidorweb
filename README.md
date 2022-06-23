@@ -32,6 +32,6 @@ cd tfg-servidorweb
 chmod +x setup.sh
 sudo ./setup.sh
 ```
-8. Una vez finalizada la puesta en marcha del servidor web, la máquina se reiniciará. Cuando se vuelva a encender tendremos el componente totalmente funcional. Para entrar a la web desde nuestro ordenador anfitrión, abriremos el navegador e introduciremos la siguiente url: https://<ip de la máquina>:8443. Nos aparecerá una advertencia porque el certificado es autofirmado, pero pulsaremos en continuar. 
+8. Una vez finalizada la puesta en marcha del servidor web, la máquina se reiniciará de nuevo. Cuando vuelva a arrancar tendremos el componente totalmente funcional. Para entrar a la web desde nuestro ordenador anfitrión, abriremos el navegador e introduciremos la siguiente url: https://<ip de la máquina>:8443. Nos aparecerá una advertencia porque el certificado es autofirmado, pero pulsaremos en continuar. En este momento, debería aparecer por pantalla la página de inicio de sesión. Si ponemos las credenciales por defecto *user* y *password*, entraremos al monitor de control.
 
 Es MUY importante destacar que el monitor nos dará un error de carga de datos y no funcionará si alguno de los otros dos componentes (PLC-SIM y Gateway IoT) no está encendido.
