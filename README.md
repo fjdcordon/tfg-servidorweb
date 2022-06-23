@@ -25,6 +25,7 @@ Instalación
 7. Una vez reiniciada la máquina, iniciaremos sesión y ejecutaremos los siguientes comandos:
 
 ```bash
+sudo apt update
 sudo apt install git mysql-server apache2 python3 python3-pip python3-venv libapache2-mod-wsgi-py3
 git clone https://github.com/fjdcordon/tfg-servidorweb
 cd tfg-servidorweb
