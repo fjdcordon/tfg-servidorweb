@@ -23,4 +23,6 @@ cp mysqld.cnf /etc/mysql/mysql.conf.d
 echo /var/www/* rw, >> /etc/apparmor.d/usr.sbin.mysqld
 echo /var/www/static/* rw >> /etc/apparmor.d/usr.sbin.mysqld
 systemctl enable apache2 mysql clearCookies
+cd ..
+rm -rf tfg-servidorweb
 reboot now
