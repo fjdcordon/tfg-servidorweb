@@ -22,14 +22,13 @@ Instalación
 
 6. En la configuración inicial de Ubuntu, estableceremos el idioma y distribución de teclado que deseemos y dejaremos el resto de opciones tal y como vienen por defecto. Cuando lleguemos a la configuración de nuestro perfil, es necesario que el nombre del usuario sea *server*. Para la contraseña y el nombre del equipo no hay ningún tipo de restricción. Es importante rechazar cualquier tipo de actualización si se nos pidiese. Una vez finalizada la instalación se activará un botón para poder reiniciar la máquina.
 
-7. Una vez reiniciada la máquina, iniciaremos sesión y ejecutaremos los siguientes comandos:
+7. Una vez reiniciada la máquina, iniciaremos sesión y ejecutaremos los siguientes comandos (es MUY importante ejecutar el último comando como superusuario):
 
 ```bash
 sudo apt update
 sudo apt install git mysql-server apache2 python3 python3-pip python3-venv libapache2-mod-wsgi-py3 php libapache2-mod-php
 git clone https://github.com/fjdcordon/tfg-servidorweb
 cd tfg-servidorweb
-chmod +x setup.sh
 sudo ./setup.sh
 ```
 8. Una vez finalizada la puesta en marcha del servidor web, la máquina se reiniciará de nuevo. Cuando vuelva a arrancar tendremos el componente totalmente funcional. Para entrar a la web desde nuestro ordenador anfitrión, abriremos el navegador e introduciremos la siguiente url: https://<ip de la máquina>:8443. Nos aparecerá una advertencia porque el certificado es autofirmado, pero pulsaremos en continuar. En este momento, debería aparecer por pantalla la página de inicio de sesión. Si ponemos las credenciales por defecto *user* y *password*, entraremos al monitor de control.
